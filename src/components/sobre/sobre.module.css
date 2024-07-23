@@ -1,0 +1,19 @@
+.corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.corpo{
+    width: 100%;
+}
+
+.corpo div h1{
+    align-items: flex-start;
+}
+
+.corpo div p{
+    width: 900px;
+}

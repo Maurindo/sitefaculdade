@@ -1,0 +1,23 @@
+.corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.corpo p{
+    width: 900px;
+}
+
+.tabela{
+    position: relative;
+    left: -330px;
+    
+}
+
+.titulo{
+    position: relative;
+    left: -390px;
+}

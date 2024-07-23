@@ -1,0 +1,27 @@
+.corpo{
+    width: 100%;
+    height: 110px;
+}
+
+.corpo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    position: relative;
+    left: -40px;
+    font-size: 18px;
+}
+
+.imagem{
+    width: 213px;
+    height: 70px;
+}
+
+.img{
+    position: relative;
+    left: 30px;
+}
