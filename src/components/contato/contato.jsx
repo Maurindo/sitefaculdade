@@ -1,14 +1,16 @@
+import styles from './contato.module.css'
+
 function Contato() {
     return(
        
-        <div>
+        <div className={styles.corpo}>
             <h2>Entre em contato</h2>
-            <br/>
+            
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                 Suspendisse sit amet mollis nisl.
             </p>
-            <br/>
+            
             <p><hr/></p>
             <form>
                 <div>
@@ -29,6 +31,11 @@ function Contato() {
                     <input type="submit" value="Enviar" />
                 </div>
             </form>
+
+
+            <div>
+                <h4>Todos os direitos reservados</h4>
+            </div>
         </div>
     );
 }
