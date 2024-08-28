@@ -5,7 +5,7 @@ import QuemSomos from './paginas/quem-somos/quem-somos.jsx';
 
 function AppRoutes() {
     return(
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />}></Route>
                 <Route path="/Contato" element={<Contato />}></Route>
